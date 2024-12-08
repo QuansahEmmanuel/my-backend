@@ -1,0 +1,119 @@
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    max-height: 600px; /* Adjust this value to your preferred max height */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .carousel-caption h5 {
+        font-size: 1.25rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+
+    .carousel-caption {
+        display: block;
+    }
+}
+
+@media (min-width: 769px) {
+    .carousel-caption h5 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1.5rem;
+    }
+
+    .carousel-caption {
+        display: block;
+    }
+}
+
+
+.navbar-title {
+    font-size: 1.5rem; /* Adjust the font size for mobile */
+}
+
+@media (min-width: 768px) {
+    .navbar-title {
+        font-size: 2rem; /* Adjust the font size for desktop */
+    }
+}
+
+.navbar-title {
+    font-size: 1.5rem; /* Adjust the font size for mobile */
+    text-align: center;
+}
+
+@media (min-width: 576px) {
+    .navbar-title {
+        font-size: 1.75rem; /* Adjust the font size for tablets */
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-title {
+        font-size: 2rem; /* Adjust the font size for desktops */
+    }
+}
+
+.navbar-brand img {
+    max-width: 50px; /* Adjust the logo size for mobile */
+}
+
+@media (min-width: 768px) {
+    .navbar-brand img {
+        max-width: 60px; /* Adjust the logo size for desktops */
+    }
+}
+
+#addPostContent {
+    padding: 20px; /* Add space inside the container */
+    margin: 20px auto; /* Add space outside the container and center it */
+    border: 2px solid #ccc; /* Add a border to make it stand out */
+    border-radius: 10px; /* Round the corners of the container */
+    background-color: #f8f9fa; /* Light background color for contrast */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+
+#homePageContent {
+    padding: 20px; /* Add some padding for desktops */
+    margin: 20px; /* Center and add margin for desktops */
+    border: 2px solid #ccc; /* Add a border to make it stand out */
+    border-radius: 10px; /* Round the corners of the container */
+    background-color: #f8f9fa; /* Light background color for contrast */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+@media (max-width: 300px) {
+    #homePageContent {
+        margin: 0; /* Remove margin for mobile devices */
+        padding: 0; /* Remove padding for mobile devices */
+        width: 100vw; /* Use the full width of the viewport */
+        border: 1px solid #ccc; /* Adjust the border for mobile */
+        border-radius: 5px; /* Slightly round the corners for mobile */
+        box-shadow: none; /* Remove shadow for a cleaner look on mobile */
+    }
+}
+.custom-container {
+    width: 75%; /* Default width for larger screens */
+    max-width: 800px; /* Limit the maximum width */
+    margin: 0 auto; /* Center the container */
+}
+
+@media (max-width: 576px) {
+    .custom-container {
+        width: 100%; /* Full width on mobile devices */
+        padding: 0 10px; /* Add some padding on mobile */
+    }
+}
